@@ -1,0 +1,42 @@
+body{
+    background-image: url('../img/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.btn1{
+    box-shadow: 1px 1px 3px #2c2c2c;
+}
+#facebook{
+    font-size: 45px;
+    color:#2962ff;
+    text-shadow: 1px 1px 2px #000000;
+ 
+}
+#google{
+    font-size: 45px;
+    color: #319f4f;
+    text-shadow: 1px 1px 2px #000000;
+
+}
+.imagen1{
+    height: 90px;
+    width: 200px;
+}
+.topbar{
+    background-color: #2927273d;
+    height: 100%;
+}
+.input-wrapper {
+	position: relative;
+	width: 100%;
+}
+.input-icon {
+	color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 12px;
+    top: 45%;
+    transform: translateY(-50%);
+}

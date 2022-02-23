@@ -1,0 +1,40 @@
+body{
+    background-image: url('../img/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.btn1{
+    background-color: #9c1918;
+    border-radius: 25px;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    font-family: inherit;
+    margin-bottom: 10px;
+}
+.imagen1{
+    height: 90px;
+    width: 200px;
+}
+.topbar{
+    background-color: #2927273d;
+    height: 100%;
+  
+    
+
+    
+}
+.input-wrapper {
+	position: relative;
+	width: 100%;
+}
+.input-icon {
+	color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 12px;
+    top: 45%;
+    transform: translateY(-50%);
+}

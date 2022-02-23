@@ -1,0 +1,49 @@
+#bell{
+    font-size: 20px;
+    color: #8d2512;
+}
+.btn1{
+    font-size: 30px;
+    color: #9c1918;
+}
+.btn2{
+    background-color: #9c1918;
+    border-radius: 25px;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    font-family: inherit;
+    margin-bottom: 10px;
+}
+.imagen1{
+    height: 90px;
+    width: 200px;
+}
+
+#plus{
+    font-size: 20px;
+  
+    color: #8d2512;
+}
+.topbar{
+    background: linear-gradient(to right, #9ac9ff80, #f9c9ff6e);
+    height: 100%; 
+}
+#user{
+    font-size: 20px;
+   
+    color: #8d2512;
+}
+.input-wrapper {
+	position: relative;
+	width: 100%;
+}
+.input-icon {
+	color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 12px;
+    top: 45%;
+    transform: translateY(-50%);
+}
