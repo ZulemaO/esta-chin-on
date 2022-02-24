@@ -39,6 +39,11 @@
 .post input{
     background: transparent;
     border: none;
+    min-width: auto;
+
+}
+.transparent-input:focus{
+    background: transparent;
 
 }
 .post:before {
@@ -46,12 +51,12 @@
     position: absolute;
     width: 0;
     height: 0;
-    border-top: 52px solid transparent;
-    border-right: 37px solid #9c1918;
+    border-top: 46px  solid transparent;
+    border-right: 37px    solid #9c1918;
     border-bottom: 20px solid transparent;
     margin: 10px 0 0 ­32px;
-    left: -23px;
-    top: 17px;
+    left: -29px;
+    top: 31px;
 }
 
 .topbar{

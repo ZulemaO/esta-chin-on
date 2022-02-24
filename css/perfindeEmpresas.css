@@ -1,0 +1,58 @@
+#bell{
+    font-size: 20px;
+    color: #8d2512;
+}
+.btn1{
+    font-size: 30px;
+    color: #9c1918;
+}
+.btn2{
+    background-color: #987a3b;
+    color: #ffffff;
+    height: 35px;
+}
+.fondo{
+    background-image: url('https://www.fao.org/typo3temp/pics/a98e06d101.jpg');
+}
+
+.imagen1{
+    height: 90px;
+    width: 200px;
+}
+
+.topbar{
+    background: linear-gradient(to right, #9ac9ff80, #f9c9ff6e);
+    height: 100%; 
+}
+#user{
+    font-size: 20px;
+    color: #8d2512;
+}
+.input-wrapper {
+	position: relative;
+	width: 100%;
+}
+.input-icon {
+	color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 12px;
+    top: 45%;
+    transform: translateY(-50%);
+}
+.eye{
+    background-image: url("https://www.fotografiarte.es/fotoblog/wp-content/uploads/2016/07/csm_img_main01_e357eb1235.jpg");
+    position:relative;
+    background-size: cover;
+    width:100%;
+    height:400px;
+    top: 0;
+    left : 0;
+    z-index: 1;
+  }
+@media(max-width:400px){
+    .eye{
+        height:109px;
+    }
+  }
