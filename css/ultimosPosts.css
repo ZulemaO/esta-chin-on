@@ -40,8 +40,9 @@
     background: transparent;
     border: none;
     min-width: auto;
-    font-size: 50px;
-    color: #ffffff;
+    color: #ffffff !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
 
 }
 .transparent-input:focus{
@@ -53,14 +54,14 @@
     position: absolute;
     width: 0;
     height: 0;
-    border-top: 46px  solid transparent;
+    border-top: 39px  solid transparent;
     border-right: 37px    solid #9c1918;
     border-bottom: 20px solid transparent;
     margin: 10px 0 0 ­32px;
     left: -29px;
     top: 77px;
 }
-
+.post input::placeholder { color: #ffffff; }
 .topbar{
     background: linear-gradient(to right, #9ac9ff80, #f9c9ff6e);
     height: 100%; 
@@ -94,15 +95,18 @@
         margin-top: 20px;
     }
     .post:before{
-        height: 60px;
-        top:5px;
-        left: -11px;
-        transform: rotate(281deg);
+        height: 50px;
+        top: 16px;
+        left: -6px;
+        width: 11px;
+        transform: rotate(275deg); 
     }
     .post input{
         font-size: 20px;
         width: 157px;
         height: 29px;
+        color: #ffffff !important;
 
     }
+    .post input::placeholder { color: #ffffff; }
   }
