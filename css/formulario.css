@@ -15,13 +15,12 @@ body{
 }
 .imagen1{
     height: 90px;
-    width: 200px;
+    width: 200px; 
 }
 .topbar{
-    background-color: #2927273d;
+    background: linear-gradient(to left, #eab2b0d6 ,#e8f3e6d4 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100%;
-  
-    
+
 
     
 }

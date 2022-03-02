@@ -19,14 +19,14 @@
 <body>
     <div class="container-fluid">
         <div class="row topbar ">
-            <div class="col-12 col-md-3">
+            <div class="col-12 col-md-3 text-center">
                 <!--LOGO-->
                 <img src="./img/logo.png" class="imagen1 mt-2 ml-2 mb-3">
             </div>
-            <div class="col-10 col-md-4 d-flex align-items-center">
+            <div class="col-7 col-md-4 d-flex align-items-center d-flex justify-content-center">
                 <!--BÚSQUEDA-->
                 <div class="input-wrapper">
-                    <input placeholder="Buscar." class="form-control mt-3 mb-3" id="busqueda">
+                    <input placeholder="Buscar." class="form-control mt-2 mb-3" id="busqueda">
                     <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
                             d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
@@ -34,22 +34,26 @@
                     </svg>
                 </div>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <button class="btn btn-lignt btn1"><i class="bi bi-person-circle"></i></button>
+            <div class="col-5 col-md-4 d-flex align-items-center d-flex justify-content-center">
+                <nav class="navbar navbar-expand-lg navbar-light">
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" href="#">Home</a>
-                        <a class="nav-link active" href="#">Hashtags</a>
-                        <a class="nav-link active" href="#">Proyectos</a>
-                        <a class="nav-link active" href="#">Leaderboard</a>
+                    <button class="navbar-toggler " type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav d-flex align-items-center">
+                            <button class="btn btn-lignt btn1"><i class="bi bi-person-circle"></i></button>
+                            <a class="nav-link active" href="#">Home</a>
+                            <a class="nav-link active" href="#">Hashtags</a>
+                            <a class="nav-link active" href="#">Proyectos</a>
+                            <a class="nav-link active" href="#">Leaderboard</a>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
+
         </div>
     </div>
     <!---------------------------------------------------------------------------------------------------------------------->
@@ -58,38 +62,47 @@
             <div class="col-12 col-md-12 eye"> </div>
         </div>
         <div class="row">
-            <div class="col-2 col-md-2 d-flex justify-content-center d-flex align-items-center mt-5">
+            <div class="col-4 col-md-4"></div>
+            <div class="col-4 col-md-4 d-flex justify-content-center">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-md-2 d-flex justify-content-center d-flex align-items-center">
                 <nav class="navbar navbar-light bg-light">
                     <a class="navbar-brand  text-center" href="#">Proyectos</a>
                 </nav>
             </div>
-            <div class="col-1 col-md-1 d-flex justify-content-center d-flex align-items-center mt-5">
+            <div class="col-1 col-md-1 d-flex justify-content-center d-flex align-items-center">
                 <nav class="navbar navbar-light bg-light">
                     <a class="navbar-brand  text-center" href="#">Seguidores</a>
                 </nav>
             </div>
-            <div class="col-1 col-md-1 d-flex justify-content-center d-flex align-items-center mt-5">
+            <div class="col-1 col-md-1 d-flex justify-content-center d-flex align-items-center">
                 <nav class="navbar navbar-light bg-light">
                     <a class="navbar-brand  text-center" href="#">Seguidos</a>
                 </nav>
             </div>
-            <div class="col-4 col-md-4 d-flex justify-content-center d-flex align-items-center mt-5">
-                <img src="" alt="">
+            <div class="col-4 col-md-4 d-flex justify-content-center d-flex align-items-center">
+                <div class="card photo1" style="width: 18rem;">
+                    <img src="https://source.unsplash.com/1000x1000/?sport" class="card-img-top img-thumbnail ">
+                </div>
             </div>
-            <div class="col-1 col-md-1 d-flex justify-content-center d-flex align-items-center mt-5">
+            <div class="col-1 col-md-1 d-flex justify-content-center d-flex align-items-center">
                 <nav class="navbar navbar-light bg-light">
                     <a class="navbar-brand text-center" href="#">Landing page</a>
                 </nav>
             </div>
-            <div class="col-2 col-md-2 d-flex justify-content-center d-flex align-items-center mt-5">
+            <div class="col-2 col-md-2 d-flex justify-content-center d-flex align-items-center">
                 <nav class="navbar navbar-light bg-light">
                     <a class="navbar-brand text-center" href="#">Perfil de empresa</a>
                 </nav>
             </div>
-            <div class="col-1 col-md-1 d-flex justify-content-center d-flex align-items-center mt-5">
+            <div class="col-1 col-md-1 d-flex justify-content-center d-flex align-items-center">
                 <button class="btn btn-lignt btn2 text-center ">Editar <i class="bi bi-pencil-fill"></i></button>
             </div>
         </div>
+
         <div class="row">
             <div class="col-4"></div>
             <div class="col-4 d-flex justify-content-center d-flex align-items-center">

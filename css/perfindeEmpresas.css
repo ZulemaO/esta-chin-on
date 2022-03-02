@@ -19,7 +19,13 @@
     height: 90px;
     width: 200px;
 }
-
+.photo1{
+    z-index: 5;
+    top: -120px;
+}
+.menu{
+    height: 86px;
+}
 .topbar{
     background: linear-gradient(to right, #9ac9ff80, #f9c9ff6e);
     height: 100%; 

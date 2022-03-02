@@ -26,8 +26,8 @@
     color: #8d2512;
 }
 .topbar{
-    background: linear-gradient(to right, #9ac9ff80, #f9c9ff6e);
-    height: 100%; 
+    background: linear-gradient(to left, #eab2b0d6 ,#e8f3e6d4 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
 }
 #user{
     font-size: 20px;
