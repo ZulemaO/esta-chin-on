@@ -16,8 +16,8 @@
     margin-bottom: 10px;
 }
 .imagen1{
-    height: 90px;
-    width: 200px;
+    height: 49px;
+    width: 120px;
 }
 
 #plus{
@@ -62,9 +62,10 @@
     top: 77px;
 }
 .post input::placeholder { color: #ffffff; }
+
 .topbar{
-    background: linear-gradient(to right, #9ac9ff80, #f9c9ff6e);
-    height: 100%; 
+    background: linear-gradient(to left, #eab2b0d6 ,#e8f3e6d4 );
+    height: 100%;
 }
 .txt{
     color: #8d2512;

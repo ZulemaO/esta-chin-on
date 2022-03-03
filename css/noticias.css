@@ -16,9 +16,10 @@
     margin-bottom: 10px;
 }
 .imagen1{
-    height: 90px;
-    width: 200px;
+    height: 49px;
+    width: 120px;
 }
+
 
 #plus{
     font-size: 20px;
@@ -26,7 +27,7 @@
     color: #8d2512;
 }
 .topbar{
-    background: linear-gradient(to left, #eab2b0d6 ,#e8f3e6d4 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, #eab2b0d6 ,#e8f3e6d4 );
     height: 100%;
 }
 #user{

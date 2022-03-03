@@ -16,17 +16,21 @@
 }
 
 .imagen1{
-    height: 90px;
-    width: 200px;
+    height: 49px;
+    width: 120px;
+}
+.photo{
+    height: 63px;
 }
 .photo1{
     z-index: 5;
     top: -90px;
 }
 .topbar{
-    background: linear-gradient(to right, #9ac9ff80, #f9c9ff6e);
-    height: 100%; 
-}
+    background: linear-gradient(to left, #eab2b0d6 ,#e8f3e6d4 );
+    height: 100%;
+} 
+
 #user{
     font-size: 20px;
     color: #8d2512;
@@ -54,8 +58,19 @@
     left : 0;
     z-index: 1;
   }
+
 @media(max-width:400px){
     .eye{
-        height:109px;
+        height: 125px;;
+    }
+    .photo1{
+        z-index: 5;
+        top: -53px;
+    }
+    .input-wrapper::placeholder{
+        font-size: 10px;
+    }
+    .topbar menu{ 
+        z-index: 5;
     }
   }
